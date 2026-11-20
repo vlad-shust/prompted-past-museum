@@ -1,0 +1,37 @@
+/*
+ * Molten tokens as CSS custom properties — transcribed from src/theme/
+ * (colors.ts, spacing.ts, typography.ts), which stays the source of truth.
+ * This file is the one sanctioned place hex values are re-stated for web.
+ */
+:root {
+  --bg-viewer: #000000;
+  --bg-base: #0a0908;
+  --bg-elevated: #141210;
+  --bg-raised: #1c1917;
+  --stroke-hairline: #2a2520;
+
+  --text-primary: #f5ede3;
+  --text-secondary: #a89f94;
+  --text-tertiary: #8a8178;
+
+  --ember-core: #ff6b35;
+  --ember-bright: #ff9f45;
+  --ember-gold: #ffb454;
+  --ember-deep: #c2410c;
+  --glow-halo: #ffc97e;
+
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+  --space-xl: 24px;
+  --space-xxl: 32px;
+  --space-huge: 40px;
+  --space-giant: 56px;
+  --space-colossal: 72px;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+}

@@ -1,0 +1,14 @@
+# Only web/ (the Next app) and src/ (shared content it imports) matter to Vercel.
+ios/
+dist/
+assets/
+patches/
+scripts/
+supabase/
+targets/
+.playwright-mcp/
+*.jpeg
+*.png
+!web/public/logo-pearl-keyhole.png
+!web/src/app/icon.png
+!web/src/app/apple-icon.png

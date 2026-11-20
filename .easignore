@@ -1,0 +1,65 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# generated native folders
+/ios
+/android
+
+# editorial scratch
+editorial-work/
+.env
+scripts/editorial/.env
+.playwright-mcp/
+.r2-staging/
+assets/scenes/
+.vercel
+
+# Local secrets / CLI (do not commit)
+.supabase/
+.sb_access.tmp
+.pp_env_fragment.tmp
+.sb_anon.tmp
+.sb_url.tmp
+.rc_ios_key.tmp
+
+# Local EAS scratch (do not upload)
+.eas-local-build/
+
+# Local leftovers that blow past the EAS upload limit
+.cache/
+*.ipa

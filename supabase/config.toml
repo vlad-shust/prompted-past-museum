@@ -1,0 +1,21 @@
+# Minimal config: per-function JWT settings. If you `supabase init` later,
+# merge these [functions.*] blocks into the generated file.
+project_id = "prompted-past"
+
+[functions.forge-submit]
+verify_jwt = true
+
+[functions.forge-webhook]
+verify_jwt = false
+
+[functions.revenuecat-webhook]
+verify_jwt = false
+
+[functions.send-daily-push]
+verify_jwt = false
+
+[functions.studio-animate]
+verify_jwt = true
+
+[functions.delete-account]
+verify_jwt = true
